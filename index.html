@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="icon" href="assets/img/McDonalds-logo-2.png" type="image/x-icon">
+    <title>McDonald's - Productos</title>
+  </head>
+  <body>
+    <header id="header">
+      <div id="caja">
+        <img id="header-img" src="assets/img/McDonalds-logo-2.png">
+        <nav id="nav-bar">
+          <ul id="menu">
+            <a class="nav-link" href="#pedido">Pedido</a>
+            <a class="nav-link" href="#servicios">Beneficios</a>
+            <a class="nav-link" href="#productos">Productos</a>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="pedido">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <p>Para hacer su pedido ingrese su email</p>
+        <input id="email" type="email" name="email" placeholder="Ingrese su email aquí" required>
+        <input id="submit" type="submit" value="Enviar">
+      </form>
+    </section>
+    <main>
+      <section id="servicio">
+        <div id="servicios">
+          <img class="icon" src="assets/img/logohambur.png">
+          <div class="texto-servicio">
+            <h2>Hambueguesas de primer nivel</h2>
+            <p class="descripcion-servicio">Hechas con los mejores ingredientes. Lista para disfrutarla</p>
+          </div>
+        </div>
+        <div id="servicios">
+          <img class="icon" src="assets/img/envio.png">
+          <div class="texto-servicio">
+            <h2>Envío rápido</h2>
+            <p class="descripcion-servicio">Nos aseguramos de que recibas tu pedido tan pronto como hayamos terminado de hacerlo.</p>
+          </div>
+        </div>
+        <div id="servicios">
+          <img class="icon" src="assets/img/pedido.png">
+          <div class="texto-servicio">
+            <h2>Seguro de calidad</h2>
+            <p class="descripcion-servicio">Por cada compra que realices, nos aseguraremos de que no haya daños y su pedido llegue en excelentes condiciones.</p>
+          </div>
+        </div>
+      </section>
+      <div id="productos">
+        <ul>
+          <li class="combo">
+            <h2>Simple</h2>
+            <img class="img" src="assets/img/simple">
+            <p class="producto-descripcion">Pan + Carne + Aderezo a elección</p>
+            <p class="producto-precio">$ 150.00</p>
+          </li>    
+          <li class="combo">
+            <h2>Completa</h2>
+            <img class="img" src="assets/img/completa">
+            <p class="producto-descripcion">Pan + Lechuga y tomate + Queso + Aderezo a elección</p>
+            <p class="producto-precio">$ 200.00</p>
+          </li> 
+          <li class="combo">
+            <h2>Premium</h2>
+            <img class="img" src="assets/img/premium.png">
+            <p class="producto-descripcion">Pan + Lechuga y tomate + Queso cheddar + Baicon + Aderezo a elección</p>
+            <p class="producto-precio">$ 300.00</p>
+          </li> 
+        </ul>
+      </div>
+      <div>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/WxmUSnbD47k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </main>
+    <footer>
+      Creado por Jerónimo Haberkorn &#169
+    </footer>
+  </body>
+</html>
